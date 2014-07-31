@@ -15,6 +15,11 @@ h2 {
     font-size: 21px;
 }
 
+a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
 /* header */
 #header {
     overflow: auto;
@@ -43,25 +48,31 @@ h2 {
 
 /* footer */
 #footer {
+    overflow: auto;
     margin: 0 auto;
     margin-top: 8px;
     background-color: #454545;
     width: 800px;
 }
 
-#footer > div {
-    padding: 10px;
-    width: 400px;
-    font-size: 12px;
-}
-
-#footer > div > sub > a {
-    color: #FAFAFA;
-    text-decoration: none;
+#footer > div > img {
+    float: left;
 }
 
 #commonlicense {
+    padding: 10px;
+    padding-left: 15px;
+    width: 400px;
+    font-size: 12px;
     float: left;
+}
+
+#footlinks {
+    padding: 10px;
+    padding-right: 20px;
+    width: 150px;
+    float: right;
+    text-align: right;
 }
 
 /* navbar */
@@ -87,6 +98,16 @@ h2 {
     text-align: center;
     color: black;
     text-decoration: none;
+}
+
+#footlinks > h6 {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+#footlinks > p {
+    margin: 1px;
+    font-size: 11px;
 }
 
 /* content */
