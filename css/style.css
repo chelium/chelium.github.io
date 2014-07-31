@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+/* links */
+li > a, p > a {
+    color: #FF0700;
+}
+
 /* header */
 #header {
     overflow: auto;
@@ -37,7 +42,6 @@ a {
 
 #header > h1 > a {
     color: black;
-    text-decoration: none;
 }
 
 #header > img {
@@ -73,6 +77,10 @@ a {
     width: 150px;
     float: right;
     text-align: right;
+}
+
+.footlink > a {
+    color: #FAFAFA;
 }
 
 /* navbar */
@@ -133,21 +141,21 @@ a {
 
 /* 404 page */
 
-.page404 {
+#page404 {
     padding: 20px;
     padding-left: 85px;
     padding-right: 65px;
 }
 
-.page404 > .heading {
+#page404 > .heading {
     margin: 5px;
 }
 
-.page404 > .subcontent {
+#page404 > .subcontent {
     padding-top: 25px;
 }
 
-.page404 > .subcontent > img {
+#page404 > .subcontent > img {
     height: 300px;
     display: block;
     margin: 0 auto;
