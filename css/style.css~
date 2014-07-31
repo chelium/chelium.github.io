@@ -62,7 +62,7 @@ a {
 #commonlicense {
     padding: 10px;
     padding-left: 15px;
-    width: 400px;
+    width: 420px;
     font-size: 12px;
     float: left;
 }
