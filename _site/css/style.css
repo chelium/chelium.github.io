@@ -62,7 +62,7 @@ a {
 #commonlicense {
     padding: 10px;
     padding-left: 15px;
-    width: 400px;
+    width: 420px;
     font-size: 12px;
     float: left;
 }
@@ -131,9 +131,27 @@ a {
     margin: 5px;
 }
 
-/* page */
+/* 404 page */
 
+.page404 {
+    padding: 20px;
+    padding-left: 85px;
+    padding-right: 65px;
+}
 
+.page404 > .heading {
+    margin: 5px;
+}
+
+.page404 > .subcontent {
+    padding-top: 25px;
+}
+
+.page404 > .subcontent > img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
 
 /* heading and subcontent */
 
