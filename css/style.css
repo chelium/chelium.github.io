@@ -15,6 +15,10 @@ h2 {
     font-size: 21px;
 }
 
+h3 {
+    margin-bottom: -15px;
+}
+
 a {
     color: #FAFAFA;
     text-decoration: none;
@@ -127,29 +131,17 @@ li > a, p > a {
     overflow: auto;
 }
 
-/* home */
-
-#home {
+#content > div {
     padding: 20px;
     padding-left: 85px;
     padding-right: 65px;
 }
 
-#home > .heading > h2 {
+div > .heading > h2 {
     margin: 5px;
 }
 
 /* 404 page */
-
-#page404 {
-    padding: 20px;
-    padding-left: 85px;
-    padding-right: 65px;
-}
-
-#page404 > .heading {
-    margin: 5px;
-}
 
 #page404 > .subcontent {
     padding-top: 25px;
