@@ -17,7 +17,7 @@ highlighter: pygments
 relative_permalinks: true
 
 permalink:     date
-paginate_path: 'page:num'
+paginate_path: 'blog/page:num'
 paginate:      1
 
 markdown:      kramdown

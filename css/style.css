@@ -141,16 +141,14 @@ div > .heading > h2 {
     margin: 5px;
 }
 
+div > .heading > h1 {
+    margin: 5px;
+}
+
 /* 404 page */
 
 #page404 > .subcontent {
     padding-top: 25px;
-}
-
-#page404 > .subcontent > img {
-    height: 300px;
-    display: block;
-    margin: 0 auto;
 }
 
 /* heading and subcontent */
@@ -170,4 +168,19 @@ div > .heading > h2 {
     padding-bottom: 1px;
     background-color: #D4DAE4;
     width: 500px;
+}
+
+.subcontent > img {
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* related */
+#related {
+    margin-top: -25px;
+}
+
+#related > h3 {
+    margin-top: 0px;
 }

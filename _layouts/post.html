@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div id="post">
-  {{ content }}
+  <div class="heading"><h2>{{ page.title }}</h2></div>
+  <sup id="date">{{ page.date | date_to_string }}</sup>
+  <div class="subcontent">
+    {{ content }}
+  </div>
 </div>
 
 <div id="related">
