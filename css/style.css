@@ -184,3 +184,8 @@ div > .heading > h1 {
 #related > h3 {
     margin-top: 0px;
 }
+
+/* pagination */
+.pagination {
+    margin-top: 25px;
+}
