@@ -10,7 +10,7 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-h2 {
+h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 21px;
 }
@@ -112,14 +112,15 @@ li > a, p > a {
     text-decoration: none;
 }
 
-#footlinks > h6 {
+#footlinks > h1 {
     margin-top: 8px;
     margin-bottom: 2px;
+    font-size: 14px;
 }
 
 #footlinks > p {
     margin: 1px;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 /* content */
