@@ -5,7 +5,9 @@ layouts_dir: ./_layouts
 include:     ['.htaccess']
 exclude:     []
 keep_files:  ['.git','.svn']
-plugins:     []
+plugins:
+- jekyll-remote-theme
+remote_theme: pages-themes/minimal@v0.2.0
 timezone:    America/Chicago
 encoding:    nil
 
