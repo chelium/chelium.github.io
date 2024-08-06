@@ -16,6 +16,7 @@ show_drafts: false
 limit_posts: 0
 highlighter: pygments
 
+title: Chelium
 
 permalink:     date
 paginate_path: 'blog/page:num'
